@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: beige;
+            height: 650px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+        .box{
+            --primary-color:brown;
+            --custom-width:330px;
+            background-color: aqua;
+            width: var(--custom-width);
+            height: 330px;
+            border: 1px solid var(--primary-color);
+            margin: 5px;
+            padding: 5px;
+            align-self: center;
+            /* box-shadow: 70px 15px brown; */
+            /* box-shadow: 10px 15px 5px brown;
+            box-shadow: 10px 15px 5px 20px brown;
+             */
+             /* box-shadow: inset 10px 15px brown; */
+             /* box-shadow: 10px 15px red, 15px 20px green;   //  multiply shadow adding */
+
+        }
+        img{
+            height: 150px;
+            width: 150px;
+        }
+        h2{
+            /* text-shadow: 12px 13px 1px white;
+            text-shadow:  yellow 12px 13px 1px;
+            text-shadow:   white 12px 13px ; */
+            text-shadow: 12px 13px ;
+            text-shadow: 2px 3px red,5px 6px green,8px 9px yellow;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="childhood memory.jpg" alt="">
+            <h2>Welcome to codehelp</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius consequatur debitis magni quisquam, corporis optio incidunt omnis expedita eligendi, rerum blanditiis molestias soluta? Itaque, consequatur?
+
+            </P>
+        </div>
+    </div>
+</body>
+</html>
